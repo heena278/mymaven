@@ -26,7 +26,7 @@
         {
             steps
             {
-                deploy adapters: [tomcat9(credentialsId: 'e891992c-4cc3-4374-ab75-1ef882884f4c', path: '', url: 'http://172.31.42.124:8080')], contextPath: 'testapp', war: '**/*.war'
+                deploy adapters: [tomcat9(credentialsId: 'e891992c-4cc3-4374-ab75-1ef882884f4c', path: '', url: 'http://172.31.9.90:8080')], contextPath: 'testapp', war: '**/*.war'
 
 
             }
