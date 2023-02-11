@@ -45,7 +45,7 @@
         {
             steps
             {
-                input message: 'need approval from dm', submitter: 'srinivas'
+                
                 deploy adapters: [tomcat9(credentialsId: 'e891992c-4cc3-4374-ab75-1ef882884f4c', path: '', url: 'http://172.31.39.79:8080')], contextPath: 'prodapp', war: '**/*.war'
             }
         }
