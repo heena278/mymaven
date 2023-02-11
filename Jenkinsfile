@@ -38,7 +38,7 @@
                 
               git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
               
-                sh 'java -jar /var/lib/jenkins/workspace/declarativepipeline1/testing.jar'
+                sh 'java -jar /var/lib/jenkins/workspace/declarativepipeline2/testing.jar'
             }
         }
         stage('contdelivery')
